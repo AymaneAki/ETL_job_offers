@@ -6,9 +6,9 @@ data = pd.read_csv(csv_file)
 
 
 conn = mysql.connector.connect(
-    host='localhost', 
-    user='root', 
-    password='aki05',  
+    host='', 
+    user='', 
+    password='',  
     database='emploi'  
 )
 cursor = conn.cursor()
